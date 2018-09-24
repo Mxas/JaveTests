@@ -1,0 +1,33 @@
+subprojects {
+    apply plugin: 'java'
+ 
+    group 'eu.mxas.issues'
+    version '1.0-SNAPSHOT'
+    
+ 
+    buildscript {
+        ext {
+            springVersion = '4.3.5.RELEASE'
+            springBootVersion = '1.4.1.RELEASE'
+            junitVersion = '4.11'
+        }
+        repositories {
+            mavenCentral()
+        }
+        dependencies {
+            classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        }
+    }
+ 
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+ 
+    repositories {
+        mavenCentral()
+    }
+ 
+    dependencies {
+        testCompile "junit:junit:$junitVersion"
+    }
+}
+
