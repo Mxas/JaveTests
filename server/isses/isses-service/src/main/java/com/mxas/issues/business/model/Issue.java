@@ -1,6 +1,8 @@
-package com.mxas.issues.bussines.model;
+package com.mxas.issues.business.model;
 
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collection = "issues")
 public class Issue {
 
     private String id;

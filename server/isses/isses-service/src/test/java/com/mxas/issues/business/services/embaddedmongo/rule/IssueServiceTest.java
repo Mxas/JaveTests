@@ -1,4 +1,4 @@
-package com.mxas.issues.bussines.services.embaddedmongo.rule;
+package com.mxas.issues.business.services.embaddedmongo.rule;
 
 
 import org.junit.Assert;
@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.mxas.issues.IssueServiceApplication;
-import com.mxas.issues.bussines.model.Issue;
-import com.mxas.issues.bussines.services.IssueService;
+import com.mxas.issues.business.IssueServiceApplication;
+import com.mxas.issues.business.model.Issue;
+import com.mxas.issues.business.services.IssueService;
 
 @ContextConfiguration(classes = {IssueServiceApplication.class})
 @RunWith(SpringJUnit4ClassRunner.class)

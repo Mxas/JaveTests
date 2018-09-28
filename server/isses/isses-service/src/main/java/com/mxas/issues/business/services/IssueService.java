@@ -1,8 +1,8 @@
-package com.mxas.issues.bussines.services;
+package com.mxas.issues.business.services;
 
 import java.util.List;
 
-import com.mxas.issues.bussines.model.Issue;
+import com.mxas.issues.business.model.Issue;
 
 public interface IssueService {
     void createNew(Issue issue);

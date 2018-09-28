@@ -1,4 +1,4 @@
-package com.mxas.issues.bussines.services.embaddedmongo.rule;
+package com.mxas.issues.business.services.embaddedmongo.rule;
 
 import org.junit.rules.ExternalResource;
 import org.springframework.data.mongodb.core.MongoTemplate;

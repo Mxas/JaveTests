@@ -1,4 +1,4 @@
-package com.mxas.issues.bussines.services.embaddedmongo.mockrepository;
+package com.mxas.issues.business.services.embaddedmongo.mockrepository;
 
 
 import org.junit.Assert;
@@ -10,9 +10,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.mxas.issues.config.IssuesServiceConfig;
-import com.mxas.issues.bussines.model.Issue;
-import com.mxas.issues.bussines.repository.IssueRepository;
-import com.mxas.issues.bussines.services.IssueService;
+import com.mxas.issues.business.model.Issue;
+import com.mxas.issues.business.repository.IssueRepository;
+import com.mxas.issues.business.services.IssueService;
 
 @ContextConfiguration(classes = {IssuesServiceConfig.class})
 @RunWith(SpringJUnit4ClassRunner.class)

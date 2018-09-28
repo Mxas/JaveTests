@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-@SpringBootApplication
-public class IssueServiceApplication {
+@SpringBootApplication(scanBasePackages = "com.mxas.issues")
+public class IssueApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(new Class[]{IssueServiceApplication.class, com.mxas.issues.IssueServiceApplication.class}, args);
+        SpringApplication.run(new Class[]{IssueApplication.class}, args);
     }
 }

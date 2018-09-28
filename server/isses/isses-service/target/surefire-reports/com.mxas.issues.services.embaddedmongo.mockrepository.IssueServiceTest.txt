@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.mxas.issues.services.embaddedmongo.mockrepository.IssueServiceTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.39 s <<< FAILURE! - in com.mxas.issues.services.embaddedmongo.mockrepository.IssueServiceTest
-createIssueAndGetById(com.mxas.issues.services.embaddedmongo.mockrepository.IssueServiceTest)  Time elapsed: 0.024 s  <<< ERROR!
-java.lang.IllegalArgumentException: Can not find by id: test1
-	at com.mxas.issues.services.embaddedmongo.mockrepository.IssueServiceTest.createIssueAndGetById(IssueServiceTest.java:42)
-

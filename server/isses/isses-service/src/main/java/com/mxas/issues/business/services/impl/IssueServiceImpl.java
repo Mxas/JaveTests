@@ -1,13 +1,14 @@
-package com.mxas.issues.bussines.services.impl;
+package com.mxas.issues.business.services.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.Assert;
 
-import com.mxas.issues.bussines.model.Issue;
-import com.mxas.issues.bussines.repository.IssueRepository;
-import com.mxas.issues.bussines.services.IssueService;
+import com.mxas.issues.business.model.Issue;
+import com.mxas.issues.business.repository.IssueRepository;
+import com.mxas.issues.business.services.IssueService;
 
 @Service
 public class IssueServiceImpl implements IssueService {
@@ -18,6 +19,9 @@ public class IssueServiceImpl implements IssueService {
 
     @Override
     public void createNew(Issue issue) {
+        Assert.notNull(issue, "Issue is null!");
+        Assert.notNull(issue.getNo(), "issue No must be not null!");
+
         issueRepository.save(issue);
     }
 
