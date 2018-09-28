@@ -1,0 +1,6 @@
+com/mxas/issues/services/embaddedmongo/rule/EmbeddedMongoRule.class
+com/mxas/issues/config/IssuesRepositoryConfig.class
+com/mxas/issues/services/embaddedmongo/mockrepository/IssueServiceTest.class
+com/mxas/issues/services/embaddedmongo/rule/IssueServiceTest.class
+com/mxas/issues/config/IssuesServiceConfig.class
+com/mxas/issues/services/embaddedmongo/datamongotest/IssueServiceTest.class

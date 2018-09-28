@@ -1,0 +1,6 @@
+/home/mkarpinskas/prg/school/exadel/JavaTesting/server/isses/isses-service/src/test/java/com/mxas/issues/config/IssuesRepositoryConfig.java
+/home/mkarpinskas/prg/school/exadel/JavaTesting/server/isses/isses-service/src/test/java/com/mxas/issues/services/embaddedmongo/rule/IssueServiceTest.java
+/home/mkarpinskas/prg/school/exadel/JavaTesting/server/isses/isses-service/src/test/java/com/mxas/issues/services/embaddedmongo/rule/EmbeddedMongoRule.java
+/home/mkarpinskas/prg/school/exadel/JavaTesting/server/isses/isses-service/src/test/java/com/mxas/issues/services/embaddedmongo/mockrepository/IssueServiceTest.java
+/home/mkarpinskas/prg/school/exadel/JavaTesting/server/isses/isses-service/src/test/java/com/mxas/issues/config/IssuesServiceConfig.java
+/home/mkarpinskas/prg/school/exadel/JavaTesting/server/isses/isses-service/src/test/java/com/mxas/issues/services/embaddedmongo/datamongotest/IssueServiceTest.java
